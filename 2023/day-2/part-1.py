@@ -1,6 +1,6 @@
 """part 1 of this challenge: https://adventofcode.com/2023/day/2"""
 
-from inputs import input_manager
+from ..utils import input_manager
 
 def convertStringToGame(string: str):
     """Takes a string in a certain format and returns a game list for it"""

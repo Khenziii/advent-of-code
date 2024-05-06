@@ -1,10 +1,10 @@
 """part 2 of this challenge: https://adventofcode.com/2023/day/1"""
 
-from inputs import input_manager
+from ..utils import input_manager
 from word2number import w2n as word2nums
 
 def check_if_number_at_index(index: int, string):
-    """checks if any number in a string for is at a certain index of another string"""
+    """checks if any number in a string is at a certain index of another string"""
     for number_as_string in nums_as_string_list:
         if string[index:index + len(number_as_string)] == number_as_string:
             return string[index:index + len(number_as_string)]

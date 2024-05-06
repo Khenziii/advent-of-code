@@ -1,7 +1,6 @@
 """part 1 of this challenge: https://adventofcode.com/2023/day/1"""
 
-from inputs import input_manager
-
+from ..utils import input_manager
 
 def calculate_value_for_line(line: str):
     """Calculates a value for a string in the way that is required in the challenge"""
