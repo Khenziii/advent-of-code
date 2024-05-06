@@ -45,7 +45,7 @@ def calculate_value_for_line(line: str):
     return int(value[0] + value[-1])
 
 
-input_list = input_manager.load_inputs()
+input_list = input_manager.load_inputs("./2023/day-1/inputs/input.txt")
 nums_as_string_list = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 value_list = []
 

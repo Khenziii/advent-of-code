@@ -29,7 +29,7 @@ def calculate_value_for_line(line: str):
     return int(value[0] + value[-1])
 
 
-input_list = input_manager.load_inputs()
+input_list = input_manager.load_inputs("./2023/day-1/inputs/input.txt")
 value_list = []
 
 for input_string in input_list:

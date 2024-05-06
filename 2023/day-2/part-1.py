@@ -48,7 +48,7 @@ elfs_cubes = {
     "blue": 14
 }
 
-input_list = input_manager.load_inputs("./inputs/input.txt")
+input_list = input_manager.load_inputs("./2023/day-2/inputs/input.txt")
 game_list = []
 values_list = []
 
